@@ -11,7 +11,7 @@ export default ()=>(
     <Router>
     <>
     <Header/>
-        <Switch>
+    <Switch>
             <Route path="/whoru" exact component={Whoru}/>
             <Route path="/studying" exact component={Studying}/>
             <Route path="/" exact component={Home}/>

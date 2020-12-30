@@ -4,7 +4,7 @@ import {Link, withRouter} from "react-router-dom";
 
 const Header = styled.header`
     color:white;
-    z-index:10;
+    z-index:2;
     width:100%;
     height:75px;
     line-height:75px;
@@ -16,29 +16,60 @@ const Header = styled.header`
 `;
 
 const Title = styled.span`
+    display:block;
     font-size:20px;
     font-family: "Dancing Script";
     font-weight:bold;
 `;
 
 const List = styled.ul`
-    overflow:hidden;
     display:flex;
-    width:50%;
-    margin-left:25%;
+    width:800px;
+    margin: auto auto;
 `;
 
 const Item = styled.li`
-    width:250px;
+    width:200px; 
     height:75px;
     text-align:center;
+    border-bottom : 5px solid ${props => props.current ? "#808080" : "transparent"};
+    transition : border-bottom .5s ease;
+    font-size:14px;
+    &:hover{
+        color:black;
+        background-color:white;
+        transition: color .5s ease;
+        transition: background-color .5s ease;
+    }
 `;
 
 const SLink = styled(Link)`
-    /* height:20px; */
     display:flex;
     align-items:center;
     justify-content:center;
+`;
+
+const LogoList = styled.ul`
+    width:150px;
+    margin:-50px auto;
+    /* margin-top:-50px; */
+    padding-left:1050px;
+    color:black;
+    display:flex;
+`;
+
+const LogoItem = styled.li`
+    display:block;
+    &:not(last-child){padding-right:30px;}
+`;
+
+const LogoImage = styled.a`
+    display:block;
+    background-image:url(${props=>props.logoUrl});
+    height:30px;
+    width:30px;
+    background-size:cover;
+    background-position:center center;
 `;
 
 export default withRouter(({location:{pathname}})=>(
@@ -60,5 +91,17 @@ export default withRouter(({location:{pathname}})=>(
                     <SLink to="/life">LIFE</SLink>
             </Item>
         </List>
+
+        <LogoList>
+            <LogoItem>
+            <LogoImage href="https://www.instagram.com/ssumthin_good" target="_blank" logoUrl = "Winstagram.png"/>
+            </LogoItem>
+            <LogoItem>
+            <LogoImage href="https://www.facebook.com/profile.php?id=100012876137307" target="_blank" logoUrl = "Wfacebook.png"/>
+            </LogoItem>
+            <LogoItem>
+            <LogoImage href ="https://www.youtube.com/channel/UCo5uwq8Ncni3fPYSf7RU-2w" target="_blank" logoUrl = "Wyoutube.png"/>
+            </LogoItem>
+        </LogoList>
     </Header>
 ));
