@@ -9,9 +9,4 @@ const Wrapper = styled.div`
     border-right:5px solid white;
 `;
 
-const Big = styled.div`
-    width:100%;
-    overflow:scroll;
-`;
-
 export default Wrapper;
