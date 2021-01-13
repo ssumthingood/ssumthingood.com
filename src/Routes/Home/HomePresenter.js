@@ -152,7 +152,7 @@ const Home = ()=>(
         <title>썸띵굿닷컴 | Home</title>
     </Helmet>
     <Wrapper>
-        <Welcome>어서와요,<br/>화양동 35번지</Welcome>
+        {/* <Welcome>어서와요,<br/>화양동 35번지</Welcome> */}
         <SLink to="/whoru"><WhoruIntro>
             <WhoruTitle>Who are you?</WhoruTitle>
             <WhoruEx>

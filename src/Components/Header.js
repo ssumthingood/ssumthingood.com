@@ -52,7 +52,7 @@ const SLink = styled(Link)`
 const LogoList = styled.ul`
     width:150px;
     margin:-50px auto;
-    /* margin-top:-50px; */
+    margin-top:-50px;
     padding-left:1050px;
     color:black;
     display:flex;
@@ -60,7 +60,7 @@ const LogoList = styled.ul`
 
 const LogoItem = styled.li`
     display:block;
-    &:not(last-child){padding-right:30px;}
+    &:not(last-child){padding-right:30px;};
 `;
 
 const LogoImage = styled.a`
@@ -70,6 +70,10 @@ const LogoImage = styled.a`
     width:30px;
     background-size:cover;
     background-position:center center;
+    background-color:gray;
+    &:hover{
+        border:3px solid white;
+    }
 `;
 
 export default withRouter(({location:{pathname}})=>(
