@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/ssumthingood_dot_com/static/js/main.eef1ddee.chunk.js",
-    "main.js.map": "/ssumthingood_dot_com/static/js/main.eef1ddee.chunk.js.map",
-    "runtime-main.js": "/ssumthingood_dot_com/static/js/runtime-main.febbe2d4.js",
-    "runtime-main.js.map": "/ssumthingood_dot_com/static/js/runtime-main.febbe2d4.js.map",
-    "static/js/2.3c2c4748.chunk.js": "/ssumthingood_dot_com/static/js/2.3c2c4748.chunk.js",
-    "static/js/2.3c2c4748.chunk.js.map": "/ssumthingood_dot_com/static/js/2.3c2c4748.chunk.js.map",
-    "index.html": "/ssumthingood_dot_com/index.html",
-    "static/js/2.3c2c4748.chunk.js.LICENSE.txt": "/ssumthingood_dot_com/static/js/2.3c2c4748.chunk.js.LICENSE.txt"
+    "main.js": "/ssumthingood.com/static/js/main.bd0cecd1.chunk.js",
+    "main.js.map": "/ssumthingood.com/static/js/main.bd0cecd1.chunk.js.map",
+    "runtime-main.js": "/ssumthingood.com/static/js/runtime-main.e9ed629a.js",
+    "runtime-main.js.map": "/ssumthingood.com/static/js/runtime-main.e9ed629a.js.map",
+    "static/js/2.6220a7f1.chunk.js": "/ssumthingood.com/static/js/2.6220a7f1.chunk.js",
+    "static/js/2.6220a7f1.chunk.js.map": "/ssumthingood.com/static/js/2.6220a7f1.chunk.js.map",
+    "index.html": "/ssumthingood.com/index.html",
+    "static/js/2.6220a7f1.chunk.js.LICENSE.txt": "/ssumthingood.com/static/js/2.6220a7f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.febbe2d4.js",
-    "static/js/2.3c2c4748.chunk.js",
-    "static/js/main.eef1ddee.chunk.js"
+    "static/js/runtime-main.e9ed629a.js",
+    "static/js/2.6220a7f1.chunk.js",
+    "static/js/main.bd0cecd1.chunk.js"
   ]
 }
