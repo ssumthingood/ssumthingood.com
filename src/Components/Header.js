@@ -70,10 +70,10 @@ const LogoImage = styled.a`
     width:30px;
     background-size:cover;
     background-position:center center;
-    background-color:gray;
+    /* background-color:gray;
     &:hover{
         border:3px solid white;
-    }
+    } */
 `;
 
 export default withRouter(({location:{pathname}})=>(
