@@ -71,16 +71,6 @@ const LifeIntro = styled.div`
     }
 `;
 
-const Welcome = styled.span`
-    font-size:50px;
-    display:block;
-    margin: 0 auto;
-    padding-top:10px;
-    padding-bottom:10px;
-    text-align:center;
-    line-height:60px;
-`;
-
 const WhoruTitle = styled.span`
     font-size:24px;
     display:block;
