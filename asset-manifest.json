@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/ssumthingood.com/static/js/main.fd7920a4.chunk.js",
-    "main.js.map": "/ssumthingood.com/static/js/main.fd7920a4.chunk.js.map",
+    "main.js": "/ssumthingood.com/static/js/main.899214e1.chunk.js",
+    "main.js.map": "/ssumthingood.com/static/js/main.899214e1.chunk.js.map",
     "runtime-main.js": "/ssumthingood.com/static/js/runtime-main.e9ed629a.js",
     "runtime-main.js.map": "/ssumthingood.com/static/js/runtime-main.e9ed629a.js.map",
     "static/js/2.6220a7f1.chunk.js": "/ssumthingood.com/static/js/2.6220a7f1.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9ed629a.js",
     "static/js/2.6220a7f1.chunk.js",
-    "static/js/main.fd7920a4.chunk.js"
+    "static/js/main.899214e1.chunk.js"
   ]
 }
