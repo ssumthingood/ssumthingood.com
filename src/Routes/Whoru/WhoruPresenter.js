@@ -42,8 +42,10 @@ const Para = styled.div`
 `;
 
 const Prime = styled.div`
+    text-align:center;
+    font-size:25px;
     margin:0 auto;
-    padding-top:50px;
+    padding-top:25px;
     width:500px;
     height:600px;
     background-color:lightgray;
@@ -66,7 +68,10 @@ const Whoru = ()=>(
     <Para>FAVORITE : Hearthstone</Para>
     </Contents>
     </Grid>
-    <Prime><MapApi/></Prime>
+    <Prime>
+        Where I At
+        <MapApi/>
+    </Prime>
     </Wrapper>
     </>
 );
