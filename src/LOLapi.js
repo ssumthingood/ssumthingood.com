@@ -13,3 +13,4 @@ const MovieApi = axios.create({
 export const MyApi = {
     PHBoon:()=>MovieApi.get()
 }
+
